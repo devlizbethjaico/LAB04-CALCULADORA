@@ -7,11 +7,11 @@ describe('Calculadora Básica', () => {
   describe('sumar()', () => {
     test('2 + 3 debe ser 5', () => {
         // ARRANGE
-      const a = 2, b = 4;
+      const a = 2, b = 3;
       // ACT
       const resultadoSuma = sumar(a, b);
       // ASSERT
-      expect(resultadoSuma).toBe(6);
+      expect(resultadoSuma).toBe(5);
     });
     test('sumar números negativos: -1 + -1 = -2', () => {
       expect(sumar(-1, -1)).toBe(-2);
